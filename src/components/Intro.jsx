@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import Me from "../assets/Images/profile-img.png";
+import Me from "../assets/Images/profile.png";
+import SocialIcons from "../subComponents/SocialIcons";
 
 const Box = styled(motion.div)`
   position: absolute;
@@ -51,8 +52,6 @@ const Text = styled.div`
   font-size: calc(1em + 1.5vw);
   color: ${(props) => props.theme.body};
   padding: 2rem;
-  cursor: pointer;
-
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -79,6 +78,22 @@ const Intro = () => {
             I develop sleek and functional websites, specializing in MERN stack
             development..
           </h6>
+          <p
+            style={{
+              backgroundColor: "red",
+              color: "white",
+              fontSize: "small",
+              width: "inherit",
+            }}
+          >
+            This portfolio template belongs to{" "}
+            <a
+              href="https://github.com/codebucks27"
+              style={{ textDecoration: "none", color: "cyan" }}
+            >
+              @CodeBucks
+            </a>
+          </p>
         </Text>
       </SubBox>
       <SubBox>

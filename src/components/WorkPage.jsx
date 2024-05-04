@@ -15,10 +15,11 @@ import BigTitlte from "../subComponents/BigTitlte";
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
 
-  height: 200vh;
+  height: 300vh;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: start;
+  justify-content: start;
 `;
 
 const Main = styled(motion.ul)`

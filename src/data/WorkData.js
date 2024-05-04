@@ -19,4 +19,13 @@ export const Work = [
     demo: "https://github.com/TalhaSher/Social-MERN-React-App",
     github: "https://github.com/TalhaSher/Social-MERN-React-App",
   },
+  {
+    id: 3,
+    name: "Hotel Management",
+    description: "Build with EJS, Node, express and mongoose.",
+    tags: ["Node.js", "ejs", "express", "mongoose"],
+
+    demo: "https://github.com/TalhaSher/Social-MERN-React-App",
+    github: "https://github.com/TalhaSher/Social-MERN-React-App",
+  },
 ];
